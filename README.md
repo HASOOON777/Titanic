@@ -62,9 +62,10 @@ The app also features an interactive analytics dashboard to explore historical d
 ## 💻 How to Run Locally
 
 ### 1. Clone the repository
+https://github.com/HASOOON777/Titanic.git
+
 ```bash
-git clone https://github.com/HASOOON777/Titanic.git
-cd Titanic
+https://github.com/HASOOON777/Titanic.git
 ```
 
 ### 2. Install requirements
