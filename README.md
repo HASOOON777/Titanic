@@ -11,13 +11,13 @@ The app also features an interactive analytics dashboard to explore historical d
 ## 🎥 App Demo
 
 ### 1️⃣ Analytics & Performance
-![Analytics Demo](assets/demo1.gif)
+![Analytics Demo](demo1.gif)
 
 ### 2️⃣ Prediction (Case 1)
-![Prediction 1](assets/demo2.gif)
+![Prediction 1](demo2.gif)
 
 ### 3️⃣ Prediction (Case 2)
-![Prediction 2](assets/demo3.gif)
+![Prediction 2](demo3.gif)
 
 ## 🚀 Features
 
