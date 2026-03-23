@@ -1,68 +1,86 @@
-🚢 Titanic Survival Predictor & Analytics Dashboard
+# 🚢 Titanic Survival Predictor & Analytics Dashboard
 
-📌 Overview
+## 📌 Overview
+This project is an interactive web application built with **Streamlit** and **Scikit-Learn**. It utilizes a Machine Learning model (**Logistic Regression**) trained on the famous Titanic dataset to predict the survival probability of a passenger based on their personal information and ticket details.
 
-This project is an interactive web application built with Streamlit and Scikit-Learn. It uses a Machine Learning model (Logistic Regression) trained on the famous Titanic dataset to predict the survival probability of a passenger based on their personal information and ticket details.
+The app also features an interactive analytics dashboard to explore historical data trends and evaluate model performance.
 
-The app also features an interactive analytics dashboard to explore the historical data and model performance.
-
-🎥 App Demo
-
-(Replace this with your actual GIF file if you named it differently)
-
-🚀 Features
-
-Real-time Predictions: Input passenger features (Age, Class, Gender, Fare, etc.) and instantly get survival probabilities.
-
-Interactive Analytics: View dynamic charts (Survival by Gender, Age Distribution, Ticket Class) using Matplotlib and Seaborn.
-
-Model Evaluation: Visualizations of the Confusion Matrix and Missing Values Heatmap.
-
-Optimized Preprocessing: Handled missing data via Imputation, encoded categorical variables, and scaled numerical features.
-
-🛠️ Tech Stack
-
-Data Manipulation: pandas, numpy
-
-Machine Learning: scikit-learn (Logistic Regression, SimpleImputer, StandardScaler, LabelEncoder)
-
-Web App UI: streamlit
-
-Data Visualization: matplotlib, seaborn
-
-📂 Project Structure
-
-titanic_app.py: The main Streamlit application script.
-
-titanic_project.py: The script used for data preprocessing and model training.
-
-train.csv: The raw dataset.
-
-*.pkl: Serialized machine learning models, scalers, and encoders.
-
-*.png: Saved plots (Confusion Matrix, Heatmap).
-
-requirements.txt: List of dependencies required to run the app.
-
-💻 How to Run Locally
-
-Clone this repository:
-
-git clone [https://github.com/HASOOON777/titanic-survival-predictor.git](https://github.com/HASOOON777/titanic-survival-predictor.git)
-cd titanic-survival-predictor
+---
 
 
-Install the required dependencies:
+## 🎥 App Demo
 
+### 1️⃣ Analytics & Performance
+![Analytics Demo](assets/demo1.gif)
+
+### 2️⃣ Prediction (Case 1)
+![Prediction 1](assets/demo2.gif)
+
+### 3️⃣ Prediction (Case 2)
+![Prediction 2](assets/demo3.gif)
+
+## 🚀 Features
+
+- **Real-time Predictions:**  
+  Input passenger features (Age, Sex, Class, etc.) and get immediate survival probabilities.
+
+- **Interactive Analytics:**  
+  Dynamic charts for Gender distribution, Age demographics, and Ticket Class statistics.
+
+- **Model Evaluation:**  
+  Visualizations of the Confusion Matrix and Feature Importance Heatmap.
+
+- **Optimized Preprocessing:**  
+  Robust handling of missing data and feature scaling for accurate predictions.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Language:** Python  
+- **Machine Learning:** Scikit-Learn (Logistic Regression)  
+- **Data Manipulation:** Pandas & NumPy  
+- **Visualization:** Matplotlib & Seaborn  
+- **Web Framework:** Streamlit  
+
+---
+
+## 📂 Project Structure
+
+```
+├── titanic_app.py      # Main Streamlit web application
+├── titanic_project.py  # Training, evaluation, and logic script
+├── train.csv           # Titanic dataset (Source data)
+├── model.pkl           # Saved Logistic Regression model
+├── scaler.pkl          # Saved StandardScaler object
+├── requirements.txt    # List of dependencies
+└── assets/             # Demo GIFs and images
+```
+
+---
+
+## 💻 How to Run Locally
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/HASOOON777/Titanic.git
+cd Titanic
+```
+
+### 2. Install requirements
+```bash
 pip install -r requirements.txt
+```
 
-
-Run the Streamlit app:
-
+### 3. Run the app
+```bash
 streamlit run titanic_app.py
+```
 
+---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Hassoooon AI 
-LinkedIn | GitHub
+**Hassoooon | AI & Data Science**  
+
+Developed with ❤️ by Hassoooon.
